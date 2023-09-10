@@ -12,6 +12,10 @@ int main(void)
 	{
 		putchar (v);
 	}
+	for (v = 'A'; v <= 'Z'; v++)
+	{
+		putchar (v);
+	}
 		putchar('\n');
 return (0);
 }
