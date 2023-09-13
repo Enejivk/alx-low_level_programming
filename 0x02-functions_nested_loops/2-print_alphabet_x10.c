@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * void print_alphabet_x10()- The defination of our function
+ * print_alphabet_x10()- The defination of our function
  * Description-This code print 10 times of alphabet
  * Return: Alwys return 0;
  */
