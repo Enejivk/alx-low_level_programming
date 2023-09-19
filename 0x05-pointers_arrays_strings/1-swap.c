@@ -7,6 +7,7 @@
 void swap_int(int *a, int *b)
 {
 	int vik;
+
 	vik = *a;
 	*a = *b;
 	*b = vik;
