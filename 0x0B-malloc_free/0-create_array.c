@@ -4,6 +4,7 @@
 *create_array- This function create streams of arrays
 *@size: This size holds the size of memory to be allocated
 *@c:This char is latter initialized with something else
+*Return: it returns array
 */
 char *create_array(unsigned int size, char c)
 {
