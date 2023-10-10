@@ -1,3 +1,4 @@
+#include "dog.h"
 /**
 *init_dog - This is the title of the fuction
 *@d :This is the pointer to the dog varibel
