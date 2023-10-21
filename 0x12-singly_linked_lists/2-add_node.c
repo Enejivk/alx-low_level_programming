@@ -14,7 +14,7 @@
 list_t *add_node(list_t **head, const char *str)
 {
 list_t *tmp;
-tmp = (list_t*) malloc(sizeof(list_t));
+tmp = (list_t *) malloc(sizeof(list_t));
 if (tmp == NULL)
 {
 printf("fail to allocate memmory");
