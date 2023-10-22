@@ -28,14 +28,14 @@ exit(1);
 }
 tmp->len = strlen(tmp->str);
 tmp->next = NULL;
-if(*head == NULL)
+if (*head == NULL)
 {
 *head = tmp;
 }
 else
 {
 list_t *curr = *head;
-while(curr->next != NULL)
+while (curr->next != NULL)
 {
 curr = curr->next;
 }
