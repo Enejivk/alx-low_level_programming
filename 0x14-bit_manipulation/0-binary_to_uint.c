@@ -17,11 +17,11 @@ unsigned int binary_to_uint(const char *b)
 	{
 		if (b[i] == '0')
 		{
-			result = result * 2;
+			result = (result << 1);
 		}
 		else if (b[i] == '1')
 		{
-			result = result * 2 + 1;
+			result = (result << 1) + 1;
 		}
 		else
 		{
