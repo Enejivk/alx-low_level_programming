@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
 	* get_dnodeint_at_index- It returns element at a specific index
+	*@head: This holds the adddress of the first element
 	* @index: The position to be returned
 	* Return: It returns the a node at that specific index
 */
