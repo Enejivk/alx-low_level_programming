@@ -23,7 +23,7 @@ if (*head == NULL)
 }
 else
 {
-while(tmp->next != NULL)
+while (tmp->next != NULL)
 {
 tmp = tmp->next;
 }
