@@ -2,7 +2,7 @@
 /**
 	* free_dlistint- free allocated memmory
 	*@head: This pointer to head;
-	*Return: It returns nothing 
+	*Return: It returns nothing
 */
 void free_dlistint(dlistint_t *head)
 {
