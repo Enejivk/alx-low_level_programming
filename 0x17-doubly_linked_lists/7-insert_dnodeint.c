@@ -19,7 +19,7 @@ return (NULL);
 new_node->n = n;
 if (idx == 0)
 {
-if(*h != NULL)
+if (*h != NULL)
 {
 (*h)->prev = new_node;
 }
