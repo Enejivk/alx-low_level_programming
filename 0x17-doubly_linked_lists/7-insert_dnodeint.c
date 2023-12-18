@@ -12,7 +12,7 @@ unsigned int i;
 dlistint_t *new_node = (dlistint_t *)malloc(sizeof(dlistint_t));
 dlistint_t *tmp = *h;
 
-if (new_node == NULL)
+if (new_node == NULL && *h == NULL)
 {
 return (NULL);
 }
@@ -29,7 +29,7 @@ return (new_node);
 }
 else
 {
-for (i = 0; i < idx; i++)
+for (i = 0; tmp != NULL && i < idx; i++)
 {
 tmp = tmp->next;
 }
