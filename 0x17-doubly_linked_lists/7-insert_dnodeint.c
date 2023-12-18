@@ -29,7 +29,7 @@ return (new_node);
 }
 else
 {
-for (i = 0; tmp != NULL && i < idx; i++)
+for (i = 0; tmp->next != NULL && i < idx; i++)
 {
 tmp = tmp->next;
 }
