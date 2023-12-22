@@ -25,3 +25,4 @@ new_table->array[i] = NULL;
 new_table->size = size;
 return (new_table);
 }
+
