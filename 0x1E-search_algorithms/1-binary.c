@@ -16,22 +16,20 @@ size_t i;
 while (left <= right)
 {
 printf("Searching in array: ");
-for (i = left; i < right + 1; i++)
-printf("%d, ", array[i]);
+for (i = left; i <= right; i++)
+{
+if (i > left)
+printf(", ");
+printf("%d", array[i]);
+}
 printf("\n");
 mid = (left + right) / 2;
 if (array[mid] == value)
-{
 return (mid);
-}
-if (array[mid] < value)
-{
+else if (array[mid] < value)
 left = mid + 1;
-}
 else
-{
-right = mid + 1;
-}
+right = mid - 1;
 }
 return (-1);
 }
